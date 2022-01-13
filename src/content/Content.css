@@ -1,3 +1,31 @@
+.bg{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    width: 50%;
+    margin: auto;
+}
+.mainText{
+    font-family: 'Arvo', serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #474747;
+    margin-left: 30%;
+}
+.para{
+    font-family: 'Manrope', sans-serif;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+    margin-left: 30%;
+}
+.bgImage{
+    margin: auto;
+    width: 50%;
+}
 .backgroundImage{
-    
+    margin-left: 50px;
 }
