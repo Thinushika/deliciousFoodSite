@@ -3,6 +3,8 @@ import Content from "./content/Content";
 import Menu from "./menu/Menu";
 import TopBar from "./topbar/TopBar";
 import MeetChef from "./chef/MeetChef";
+import Form from "./form/Form";
+import Footer from "./footer/Footer";
 
 function App() {
 
@@ -27,6 +29,15 @@ function App() {
           <div>
             <MeetChef />
           </div>
+
+          <div>
+            <Form />
+          </div>
+
+          <div>
+            <Footer />
+          </div>
+
         </div>
       </div>
     </>
