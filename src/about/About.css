@@ -1,0 +1,76 @@
+.bg2 {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+}
+.rowOne {
+  height: 30%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.rowTwo {
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 60%;
+}
+
+.mainText2 {
+  font-family: "Arvo", serif;
+  font-weight: 900;
+  font-size: 45px;
+  color: #474747;
+  justify-content: center;
+  text-align: center;
+}
+.para2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+  text-align: center;
+}
+
+.mainText3 {
+  font-family: "Arvo", serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: #474747;
+  justify-content: left;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.para3 {
+  font-family: "Manrope", sans-serif;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+  justify-content: left;
+  margin-left: 30%;
+}
+.startedBtn4 {
+  font-family: "Manrope", sans-serif;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: 0;
+  color: white;
+  font-weight: 500;
+  background-color: darkorange;
+  cursor: pointer;
+  margin-left: 30%;
+}
+
+.secTwoImg1 {
+  width: 300px;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 10px;
+  border-radius: 30px;
+  position: relative;
+}

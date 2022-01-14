@@ -1,18 +1,11 @@
 import React from "react";
 import "./TopBar.css";
 import {
-  Divider,
   Drawer,
-  IconButton,
   List,
-  ListItem,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
   Toolbar,
 } from "@mui/material";
 import { Box } from "@mui/system";
-import InboxIcon from "@mui/icons-material/Inbox";
 
 const drawerWidth = 240;
 
