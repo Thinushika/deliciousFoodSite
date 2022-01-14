@@ -8,9 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <div >
         <TopBar />
-        </div>
         
         <div>
           <div id="SecOne">
@@ -21,7 +19,7 @@ function App() {
             <About />
           </div>
 
-          <div>
+          <div id="SecThree">
             <Menu />
           </div>
         </div>
