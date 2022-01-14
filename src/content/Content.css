@@ -2,17 +2,23 @@
   display: flex;
   flex-direction: row;
   height:600px;
+  padding: 10px 10%;
 }
 .text {
   width: 50%;
-  margin: auto;
+  margin-top: 10%;
 }
+.bgImage {
+  width: 50%;
+}
+
+
 .mainText {
   font-family: "Arvo", serif;
   font-weight: 900;
   font-size: 50px;
   color: #474747;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 
 .para {
@@ -22,13 +28,13 @@
   font-size: 16px;
   line-height: 26px;
   color: #666666;
-  margin-left: 30%;
+  margin-left: 10%;
   margin-right: 60px;
 }
 .btnDiv {
   display: flex;
   flex-direction: row;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 .startedBtn {
   font-family: "Manrope", sans-serif;
@@ -71,10 +77,7 @@
 .textLoc {
   margin-left: 15px;
 }
-.bgImage {
-  margin: auto;
-  width: 50%;
-}
+
 .backgroundImage {
   margin-left: 50px;
   cursor: pointer;

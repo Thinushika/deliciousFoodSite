@@ -2,6 +2,7 @@ import About from "./about/About";
 import Content from "./content/Content";
 import Menu from "./menu/Menu";
 import TopBar from "./topbar/TopBar";
+import MeetChef from "./chef/MeetChef";
 
 function App() {
 
@@ -21,6 +22,10 @@ function App() {
 
           <div id="SecThree">
             <Menu />
+          </div>
+
+          <div>
+            <MeetChef />
           </div>
         </div>
       </div>

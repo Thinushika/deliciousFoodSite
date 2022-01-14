@@ -9,7 +9,7 @@ const about = () => {
 
   return (
     <div className="bg2">
-      <div className="rowOne" data-aos="fade-up">
+      <div className="rowOne">
         <h1 className="mainText2"> EXTRAORDINARY TASTE </h1>
         <h1 className="mainText2">AND EXPERIENCE</h1>
         <p className="para2">
@@ -19,7 +19,7 @@ const about = () => {
 
       <div className="rowTwo">
 
-        <div className="left" data-aos="fade-right">
+        <div className="left">
           <h1 className="mainText3"> WE MAKE SURE YOUR FOOD ARRIVE ON-TIME </h1>
           <p className="para3">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
@@ -30,7 +30,7 @@ const about = () => {
           <button className="startedBtn4">READ MORE</button>
         </div>
 
-        <div className="right" data-aos="fade-left">
+        <div className="right">
           <img 
           src="./delivery.jpg" 
           alt="food" 
