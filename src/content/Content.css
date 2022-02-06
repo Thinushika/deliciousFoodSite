@@ -91,6 +91,8 @@
   }
   .bgImage {
     width: 80%;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   .bg {
     display: flex;
