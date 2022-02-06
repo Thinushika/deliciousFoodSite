@@ -101,4 +101,7 @@
   .card {
     width: 80%;
   }
+  .head {
+    padding-bottom: 20px;
+  }
 }
