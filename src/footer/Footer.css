@@ -26,7 +26,7 @@
 .detailL {
   font-family: "Manrope", sans-serif;
   font-size: 16px;
-  line-height: 50px;
+  line-height: 30px;
   color: #666666;
   width: 50%;
   text-align: left;
@@ -35,7 +35,35 @@
   width: 50%;
   font-family: "Manrope", sans-serif;
   font-size: 16px;
-  line-height: 50px;
+  line-height: 30px;
   color: #666666;
   text-align: left;
+}
+
+
+
+@media only screen and (max-width: 728px) {
+  .footerContainer {
+    flex-direction: column;
+  }
+  .detailL {
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+    width: 50%;
+  }
+  .detailR {
+    width: 50%;
+    font-size: 13px;
+    line-height: 30px;
+  }
+  .leftC {
+    width: 100%;
+    align-self: center;
+    padding-top: 30px;
+  }
+  .rightC {
+    width: 100%;
+    font-size: 25px;
+  }
 }
