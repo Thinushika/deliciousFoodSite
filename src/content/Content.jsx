@@ -15,12 +15,7 @@ function Content() {
           </p>
           <div className="btnDiv">
             <button className="startedBtn">GET STARTED</button>
-            <button className="startedBtn2">
-              <span className="textLoc">YOUR LOCATION </span>
-              <button className="startedBtn3">
-                <EnvironmentOutlined className="iconLocation" />
-              </button>
-            </button>
+            <button className="startedBtn2">YOUR LOCATION</button>
           </div>
         </div>
         <div className="bgImage">
