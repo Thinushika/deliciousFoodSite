@@ -86,3 +86,19 @@
   text-align: justify;
   margin: 5px 10px;
 }
+
+@media only screen and (max-width: 728px) {
+  .menuContainer {
+    height: auto;
+  }
+  .Btn {
+    width: 100px;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .card {
+    width: 80%;
+  }
+}
